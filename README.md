@@ -6,4 +6,51 @@
 [![NPM Download](https://img.shields.io/npm/dm/stubby.js.svg?style=flat)](https://www.npmjs.com/package/stubby.js)
 
 # stubby.js
-It's powerful and laziness module for JavaScript and TypeScript.
+It's powerful and full laziness module for JavaScript and TypeScript.
+
+# Docs
+<details>
+<summary>RandomNumber(min, max)</summary>
+  
+```ts
+import { RandomNumber } from "stubby.js";
+
+let rand = RandomNumber(10, 100);
+console.log(rand);
+```
+</details>
+
+<details>
+<summary>RandomArray(object)</summary>
+  
+```ts
+import { RandomArray } from "stubby.js";
+
+// first example.
+let fruits = [
+  "Apple",
+  "Pineapple",
+  "Orange",
+  "Strawberry",
+  "Mango",
+  "Cherry"
+];
+
+let randomFruits = RandomArray(fruits);
+console.log(randomFruits);
+
+// second example
+
+let names = [
+  {
+    name: "Arif"
+  },
+  {
+    name: "Afrin"
+  }
+];
+
+let randomNames = RandomArray(names);
+console.log(randomNames.name);
+```
+</details>
