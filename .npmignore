@@ -6,3 +6,4 @@ test.ts
 .gitignore
 examples
 src
+tsconfig.json
