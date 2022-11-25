@@ -1,4 +1,4 @@
-![](images/stubby.png)
+![](images/stubbyjs.png)
 
 [![CodeQL](https://github.com/NotRealArif/stubby.js/actions/workflows/codeql.yml/badge.svg)](https://github.com/NotRealArif/stubby.js/actions/workflows/codeql.yml)
 [![Repo Dependents](https://badgen.net/github/dependents-repo/NotRealArif/stubby.js)](https://github.com/NotRealArif/printly.js/network/dependents)
