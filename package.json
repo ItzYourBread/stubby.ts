@@ -1,0 +1,19 @@
+{
+  "name": "stubby.js",
+  "version": "0.1.0",
+  "description": "A simple and powerful module for JavaScript ",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "NotRealArif",
+  "license": "MIT"
+}
