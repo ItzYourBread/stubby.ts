@@ -1,8 +1,8 @@
 .replit
 replit.nix
-.build
 .config
 node_modules
 test.ts
 .gitignore
 examples
+src

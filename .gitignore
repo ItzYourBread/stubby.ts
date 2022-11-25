@@ -1,5 +1,4 @@
 .replit
 replit.nix
-.build
 .config
 node_modules
