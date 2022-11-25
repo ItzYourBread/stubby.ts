@@ -5,3 +5,4 @@ replit.nix
 node_modules
 test.ts
 .gitignore
+examples

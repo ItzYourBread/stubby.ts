@@ -54,3 +54,5 @@ let randomNames = RandomArray(names);
 console.log(randomNames.name);
 ```
 </details>
+
+# Thanks✨
