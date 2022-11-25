@@ -1,4 +1,4 @@
-const { RandomArray } = require("stubby.js");
+const { RandomArray } = require("stubby.ts");
 
 // first example.
 let fruits = [

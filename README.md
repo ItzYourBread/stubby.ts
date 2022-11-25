@@ -1,11 +1,11 @@
-![](images/stubbyjs.png)
+![](images/stubbyts.png)
 
-[![CodeQL](https://github.com/NotRealArif/stubby.js/actions/workflows/codeql.yml/badge.svg)](https://github.com/NotRealArif/stubby.js/actions/workflows/codeql.yml)
-[![Repo Dependents](https://badgen.net/github/dependents-repo/NotRealArif/stubby.js)](https://github.com/NotRealArif/printly.js/network/dependents)
-[![npm version](https://img.shields.io/npm/v/stubby.js.svg)](https://www.npmjs.com/package/stubby.js)
-[![NPM Download](https://img.shields.io/npm/dm/stubby.js.svg?style=flat)](https://www.npmjs.com/package/stubby.js)
+[![CodeQL](https://github.com/NotRealArif/stubby.ts/actions/workflows/codeql.yml/badge.svg)](https://github.com/NotRealArif/stubby.ts/actions/workflows/codeql.yml)
+[![Repo Dependents](https://badgen.net/github/dependents-repo/NotRealArif/stubby.ts)](https://github.com/NotRealArif/stubby.ts/network/dependents)
+[![npm version](https://img.shields.io/npm/v/stubby.ts.svg)](https://www.npmjs.com/package/stubby.ts)
+[![NPM Download](https://img.shields.io/npm/dm/stubby.ts.svg?style=flat)](https://www.npmjs.com/package/stubby.ts)
 
-# stubby.js
+# stubby.ts
 It's powerful and full laziness module for JavaScript and TypeScript.
 
 # Docs
@@ -13,7 +13,7 @@ It's powerful and full laziness module for JavaScript and TypeScript.
 <summary>RandomNumber(min, max)</summary>
   
 ```ts
-import { RandomNumber } from "stubby.js";
+import { RandomNumber } from "stubby.ts";
 
 let rand = RandomNumber(10, 100);
 console.log(rand);
@@ -24,7 +24,7 @@ console.log(rand);
 <summary>RandomArray(object)</summary>
   
 ```ts
-import { RandomArray } from "stubby.js";
+import { RandomArray } from "stubby.ts";
 
 // first example.
 let fruits = [
