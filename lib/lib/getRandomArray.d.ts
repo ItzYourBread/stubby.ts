@@ -1,1 +1,1 @@
-export declare function getRandomArray(arr: any): any;
+export declare function getRandomArray(arr: string): string;
