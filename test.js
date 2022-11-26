@@ -1,4 +1,4 @@
-const { RandomArray } = require("./lib/index");
+const { RandomArray } = require("./dist/index");
 
 let fruits = [
   "Apple",

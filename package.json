@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@types/jest": "^29.2.3",
