@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "A simple and powerful module for JavaScript ",
   "main": "index.js",
-  "private": true,
   "files": [
     "dist/**/*"
   ],
