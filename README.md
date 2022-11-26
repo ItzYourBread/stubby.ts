@@ -16,7 +16,7 @@ It's powerful and full laziness module for JavaScript and TypeScript.
 import { RandomNumber } from "stubby.ts";
 
 let rand = RandomNumber(10, 100);
-console.log(rand);
+console.log(rand); // now it will take random numbers between 10 to 100 
 ```
 </details>
 
@@ -25,6 +25,7 @@ console.log(rand);
   
 ```ts
 import { RandomArray } from "stubby.ts";
+
 
 // first example.
 let fruits = [
@@ -37,10 +38,10 @@ let fruits = [
 ];
 
 let randomFruits = RandomArray(fruits);
-console.log(randomFruits);
+console.log(randomFruits); // it will send the array value randmly 
+
 
 // second example
-
 let names = [
   {
     name: "Arif"
@@ -51,8 +52,9 @@ let names = [
 ];
 
 let randomNames = RandomArray(names);
-console.log(randomNames.name);
+console.log(randomNames.name); // it will send the array json object value randomly
 ```
 </details>
 
 # Thanks✨
+Have a great day!😊
