@@ -2,7 +2,7 @@
   "name": "stubby.ts",
   "version": "1.0.0",
   "description": "A simple and powerful module for JavaScript ",
-  "main": "index.js",
+  "main": "./dist/index",
   "files": [
     "dist/**/*"
   ],
