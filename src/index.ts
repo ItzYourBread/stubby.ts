@@ -8,4 +8,14 @@ import { getRandomNumber as RandomNumber } from './lib/getRandomNumber';
  **/
 import { getRandomArray as RandomArray } from './lib/getRandomArray';
 
-export { RandomNumber, RandomArray };
+/**
+ * @param - first value is count and second value is digits
+ **/
+import { toSmallNumber as SmallNumber } from './lib/toSmallNumber';
+
+export default {
+  RandomNumber,
+  RandomArray,
+  SmallNumber,
+};
+export { RandomNumber, RandomArray, SmallNumber };

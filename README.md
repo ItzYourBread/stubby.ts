@@ -56,5 +56,18 @@ console.log(randomNames.name); // it will send the array json object value rando
 ```
 </details>
 
+<details>
+<summary>SmallNumber(count, digits)</summary>
+  
+```ts
+import { SmallNumber } from "stubby.ts";
+
+let num = "143";
+let digits = num.length + 1;
+
+console.log(stubby.SmallNumber(num, digits)) // it wil print numbers in small way like 
+```
+</details>
+
 # Thanks✨
 Have a great day!😊
