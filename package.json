@@ -13,7 +13,12 @@
     "lint": "tslint -p tsconfig.json"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "stubby",
+    "array",
+    "random",
+    "superscript",
+    "numbers"
   ],
   "author": "NotRealArif",
   "license": "MIT",
