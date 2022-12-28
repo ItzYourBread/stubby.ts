@@ -1,6 +1,6 @@
 let numbers = ['⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'];
 
-export function toSmallNumber(count: any, digits: any) {
+export function toSmallNumber(count: number, digits: number) {
   var result = '';
   var num = count;
   var i = 0;
