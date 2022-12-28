@@ -8,13 +8,13 @@
  * @throws {Error} If the input array is empty.
  */
 export function getRandomArray(arr: any[]): any {
-  if (!Array.isArray(arr)) {
-    throw new TypeError('The input parameter must be an array');
-  }
-  if (arr.length === 0) {
-    throw new Error('The input array is empty');
-  }
-  const randomIndex = Math.floor(Math.random() * arr.length);
-  const item = arr[randomIndex];
-  return item;
+    if (!Array.isArray(arr)) {
+        throw new TypeError('The input parameter must be an array');
+    }
+    if (arr.length === 0) {
+        throw new Error('The input array is empty');
+    }
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    const item = arr[randomIndex];
+    return item;
 }

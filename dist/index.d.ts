@@ -1,19 +1,12 @@
-/**
- * @param - first value is minimum ans second value is maximum.
- **/
 import { getRandomNumber as RandomNumber } from './lib/getRandomNumber';
-/**
- * @object - the array object.
- **/
 import { getRandomArray as RandomArray } from './lib/getRandomArray';
-/**
- * @param - first value is count and second value is digits
- **/
 import { toSmallNumber as SmallNumber } from './lib/toSmallNumber';
+import { getSystemStats as getSystemInfo } from './lib/getSystemStats';
 declare const _default: {
     RandomNumber: typeof RandomNumber;
     RandomArray: typeof RandomArray;
     SmallNumber: typeof SmallNumber;
+    getSystemInfo: typeof getSystemInfo;
 };
 export default _default;
-export { RandomNumber, RandomArray, SmallNumber };
+export { RandomNumber, RandomArray, SmallNumber, getSystemInfo };

@@ -9,11 +9,13 @@
  * @throws {RangeError} If the minimum number is greater than the maximum number.
  */
 export function getRandomNumber(min: number, max: number): number {
-  if (typeof min !== 'number' || typeof max !== 'number') {
-    throw new TypeError('The input parameters must be numbers');
-  }
-  if (min > max) {
-    throw new RangeError('The minimum number must be less than or equal to the maximum number');
-  }
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+    if (typeof min !== 'number' || typeof max !== 'number') {
+        throw new TypeError('The input parameters must be numbers');
+    }
+    if (min > max) {
+        throw new RangeError(
+            'The minimum number must be less than or equal to the maximum number'
+        );
+    }
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
