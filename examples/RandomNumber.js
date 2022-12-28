@@ -1,4 +1,3 @@
-const { RandomNumber } = require("stubby.ts");
+import { RandomNumber } from 'stubby.ts';
 
-let rand = RandomNumber(10, 100);
-console.log(rand);
+console.log(RandomNumber(1, 10)); // outputs a random number between 1 and 10 (inclusive)
