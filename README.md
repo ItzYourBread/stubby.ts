@@ -65,7 +65,22 @@ import { SmallNumber } from "stubby.ts";
 let num = "143";
 let digits = num.length + 1;
 
-console.log(stubby.SmallNumber(num, digits)) // it wil print numbers in small way like 
+console.log(SmallNumber(num, digits)) // it wil print superscript numbers like ⁰¹²³⁴⁵⁶⁷⁸⁹
+```
+</details>
+
+<details>
+<summary>SystemInfo()</summary>
+	
+```ts
+import { SystemInfo } from "stubby.ts";
+
+console.log(SystemInfo().memory());
+console.log(SystemInfo().memoryUsage());
+console.log(SystemInfo().cpuUsage());
+console.log(SystemInfo().cores());
+console.log(SystemInfo().cpuBrand());
+console.log(SystemInfo().uptime());
 ```
 </details>
 
