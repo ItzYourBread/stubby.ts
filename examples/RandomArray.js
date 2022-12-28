@@ -1,29 +1,8 @@
-const { RandomArray } = require("stubby.ts");
+const stubby = require('stubby.ts');
 
+// Create an array of fruits
+const fruits = ['Apple', 'Pineapple', 'Orange', 'Strawberry', 'Mango', 'Cherry'];
 
-// first example.
-let fruits = [
-  "Apple",
-  "Pineapple",
-  "Orange",
-  "Strawberry",
-  "Mango",
-  "Cherry"
-];
-
-let randomFruits = RandomArray(fruits);
-console.log(randomFruits); // it will send the value randomly of fruits array
-
-
-// second example
-let names = [
-  {
-    name: "Arif"
-  },
-  {
-    name: "Afrin"
-  }
-];
-
-let randomNames = RandomArray(names);
-console.log(randomNames.name); // it will send random object value
+// Use the RandomArray function to get a random fruit from the array
+const randomFruit = stubby.RandomArray(fruits);
+console.log(randomFruit); // Outputs a random fruit from the array
