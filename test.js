@@ -1,4 +1,4 @@
-const { RandomNumber, RandomArray, SmallNumber, getSystemInfo } = require('./dist/index');
+const { RandomNumber, RandomArray, SmallNumber, SystemInfo } = require('./dist/index');
 
 // generate a random number between 10 and 100
 const randomNumber = RandomNumber(10, 100);
@@ -15,9 +15,9 @@ const digits = num.toString().length + 1;
 console.log(SmallNumber(num, digits));
 
 // get system statistics
-console.log(getSystemInfo().memory());
-console.log(getSystemInfo().memoryUsage());
-console.log(getSystemInfo().cpuUsage());
-console.log(getSystemInfo().cores());
-console.log(getSystemInfo().cpuBrand());
-console.log(getSystemInfo().uptime());
+console.log(SystemInfo().memory());
+console.log(SystemInfo().memoryUsage());
+console.log(SystemInfo().cpuUsage());
+console.log(SystemInfo().cores());
+console.log(SystemInfo().cpuBrand());
+console.log(SystemInfo().uptime());
