@@ -19,17 +19,17 @@ export function getSystemStats(): {
     cpuBrand: () => string;
     uptime: () => number;
 } {
-        const memory = os.totalmem();
-        const cores = os.cpus().length;
-        const uptime = os.uptime();
-        const cpuBrand = os.cpus()[0].model;
+    const memory = os.totalmem();
+    const cores = os.cpus().length;
+    const uptime = os.uptime();
+    const cpuBrand = os.cpus()[0].model;
 
-        return {
-            memory: () => memory,
-            memoryUsage: () => Math.round((os.freemem() / memory) * 100),
-            cpuUsage: () => Math.round((os.loadavg()[0] / cores) * 100),
-            cores: () => cores,
-            cpuBrand: () => cpuBrand,
-            uptime: () => uptime,
-        };
+    return {
+        memory: () => memory,
+        memoryUsage: () => Math.round((os.freemem() / memory) * 100),
+        cpuUsage: () => Math.round((os.loadavg()[0] / cores) * 100),
+        cores: () => cores,
+        cpuBrand: () => cpuBrand,
+        uptime: () => uptime,
+    };
 }

@@ -1,4 +1,4 @@
-const { RandomNumber, RandomArray, SmallNumber, SystemInfo } = require('./dist/index');
+const { RandomNumber, RandomArray, SmallNumber, SystemInfo, Replace } = require('./dist/index');
 
 // generate a random number between 10 and 100
 const randomNumber = RandomNumber(10, 100);
@@ -21,3 +21,11 @@ console.log(SystemInfo().cpuUsage());
 console.log(SystemInfo().cores());
 console.log(SystemInfo().cpuBrand());
 console.log(SystemInfo().uptime());
+
+let paragraph = "Hello my name ia %name%, im %age% years old, and most peoples like me to call %nickname%.";
+let replacements = {
+    '%name%': 'Arif',
+    '%age%': '16',
+    '%nickname%': 'Bread'
+};
+console.log(Replace(paragraph, replacements));
