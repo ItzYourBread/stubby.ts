@@ -85,7 +85,7 @@ console.log(SystemInfo().uptime());
 </details>
 
 <details>
-<summary>Replace(array, replacements)</summary>
+<summary>Replace(string, replacements)</summary>
 
 ```ts
 import { Replace } from 'stubby.ts';
