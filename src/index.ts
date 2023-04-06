@@ -1,15 +1,13 @@
-import { getRandomNumber as RandomNumber } from './lib/getRandomNumber';
-import { getRandomArray as RandomArray } from './lib/getRandomArray';
+import { getRandom as Random } from './lib/getRandom';
 import { toSmallNumber as SmallNumber } from './lib/toSmallNumber';
 import { getSystemStats as SystemInfo } from './lib/getSystemStats';
 import { tagReplace as Replace } from './lib/tagReplace';
 
 export default {
-    RandomNumber,
-    RandomArray,
+    Random,
     SmallNumber,
     SystemInfo,
     Replace,
 };
 
-export { RandomNumber, RandomArray, SmallNumber, SystemInfo, Replace };
+export { Random, SmallNumber, SystemInfo, Replace };

@@ -1,14 +1,12 @@
-import { getRandomNumber as RandomNumber } from './lib/getRandomNumber';
-import { getRandomArray as RandomArray } from './lib/getRandomArray';
+import { getRandom as Random } from './lib/getRandom';
 import { toSmallNumber as SmallNumber } from './lib/toSmallNumber';
 import { getSystemStats as SystemInfo } from './lib/getSystemStats';
 import { tagReplace as Replace } from './lib/tagReplace';
 declare const _default: {
-    RandomNumber: typeof RandomNumber;
-    RandomArray: typeof RandomArray;
+    Random: typeof Random;
     SmallNumber: typeof SmallNumber;
     SystemInfo: typeof SystemInfo;
     Replace: typeof Replace;
 };
 export default _default;
-export { RandomNumber, RandomArray, SmallNumber, SystemInfo, Replace };
+export { Random, SmallNumber, SystemInfo, Replace };
