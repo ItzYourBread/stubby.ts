@@ -10,7 +10,7 @@ It's powerful and full laziness module for JavaScript and TypeScript.
 
 # Docs
 <details>
-<summary>RandomNumber(min, max)</summary>
+<summary>Random(input/min, max?)</summary>
   
 ```ts
 import { Random } from "stubby.ts";
