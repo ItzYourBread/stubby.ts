@@ -40,8 +40,6 @@ console.log(randomPerson); // Output: a random person object from the array
 </details>
 
 <details>
-
-<details>
 <summary>SmallNumber(count, digits)</summary>
   
 ```ts
