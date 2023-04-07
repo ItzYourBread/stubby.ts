@@ -4,6 +4,6 @@
  * @param replacements - An object containing the tags and their respective values.
  * @returns The modified string with all tag occurrences replaced by their corresponding values.
  */
-export declare function tagReplace(str: string, replacements: {
+export declare function Replace(str: string, replacements: {
     [key: string]: string;
 }): string;

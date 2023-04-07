@@ -1,3 +1,5 @@
+import * as os from 'os';
+
 /**
  * Returns an object with functions for accessing various system statistics.
  *
@@ -9,11 +11,25 @@
  * - `cpuBrand`: A function that returns the brand of the CPU.
  * - `uptime`: A function that returns the system uptime in seconds.
  */
-export declare function getSystemStats(): {
+export function SystemInfo(): {
     memory: () => number;
     memoryUsage: () => number;
     cpuUsage: () => number;
     cores: () => number;
     cpuBrand: () => string;
     uptime: () => number;
-};
+} {
+    const memory = os.totalmem();
+    const cores = os.cpus().length;
+    const uptime = os.uptime();
+    const cpuBrand = os.cpus()[0].model;
+
+    return {
+        memory: () => memory,
+        memoryUsage: () => Math.round((os.freemem() / memory) * 100),
+        cpuUsage: () => Math.round((os.loadavg()[0] / cores) * 100),
+        cores: () => cores,
+        cpuBrand: () => cpuBrand,
+        uptime: () => uptime,
+    };
+}

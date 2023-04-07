@@ -8,4 +8,4 @@
  * @throws {TypeError} If the input parameter is not an array or a number.
  * @throws {Error} If the input array is empty.
  */
-export declare function getRandom(input: any, max?: number): any;
+export declare function Random(input: any, max?: number): any;

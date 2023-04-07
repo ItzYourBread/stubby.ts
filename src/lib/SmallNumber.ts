@@ -9,7 +9,7 @@ let numbers = ['⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'
  *
  * @throws {TypeError} If any of the input parameters is not a positive integer.
  */
-export function toSmallNumber(count: number, digits: number) {
+export function SmallNumber(count: number, digits: number) {
     if (
         !Number.isInteger(count) ||
         !Number.isInteger(digits) ||

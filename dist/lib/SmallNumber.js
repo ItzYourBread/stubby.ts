@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toSmallNumber = void 0;
+exports.SmallNumber = void 0;
 var numbers = ['⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'];
 /**
  * Converts a number to a small number representation using superscript digits.
@@ -11,7 +11,7 @@ var numbers = ['⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'
  *
  * @throws {TypeError} If any of the input parameters is not a positive integer.
  */
-function toSmallNumber(count, digits) {
+function SmallNumber(count, digits) {
     if (!Number.isInteger(count) ||
         !Number.isInteger(digits) ||
         count < 0 ||
@@ -28,4 +28,4 @@ function toSmallNumber(count, digits) {
     }
     return result;
 }
-exports.toSmallNumber = toSmallNumber;
+exports.SmallNumber = SmallNumber;

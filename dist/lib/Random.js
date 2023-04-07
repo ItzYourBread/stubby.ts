@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getRandom = void 0;
+exports.Random = void 0;
 /**
  * Returns a random element from an array or a random number between the given minimum and maximum values.
  *
@@ -11,7 +11,7 @@ exports.getRandom = void 0;
  * @throws {TypeError} If the input parameter is not an array or a number.
  * @throws {Error} If the input array is empty.
  */
-function getRandom(input, max) {
+function Random(input, max) {
     if (typeof input === 'number') {
         if (typeof max === 'number') {
             return Math.floor(Math.random() * (max - input + 1)) + input;
@@ -27,4 +27,4 @@ function getRandom(input, max) {
     }
     throw new TypeError('The input parameter must be an array or a number');
 }
-exports.getRandom = getRandom;
+exports.Random = Random;

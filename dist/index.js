@@ -1,17 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Replace = exports.SystemInfo = exports.SmallNumber = exports.Random = void 0;
-var getRandom_1 = require("./lib/getRandom");
-Object.defineProperty(exports, "Random", { enumerable: true, get: function () { return getRandom_1.getRandom; } });
-var toSmallNumber_1 = require("./lib/toSmallNumber");
-Object.defineProperty(exports, "SmallNumber", { enumerable: true, get: function () { return toSmallNumber_1.toSmallNumber; } });
-var getSystemStats_1 = require("./lib/getSystemStats");
-Object.defineProperty(exports, "SystemInfo", { enumerable: true, get: function () { return getSystemStats_1.getSystemStats; } });
-var tagReplace_1 = require("./lib/tagReplace");
-Object.defineProperty(exports, "Replace", { enumerable: true, get: function () { return tagReplace_1.tagReplace; } });
+var Random_1 = require("./lib/Random");
+Object.defineProperty(exports, "Random", { enumerable: true, get: function () { return Random_1.Random; } });
+var SmallNumber_1 = require("./lib/SmallNumber");
+Object.defineProperty(exports, "SmallNumber", { enumerable: true, get: function () { return SmallNumber_1.SmallNumber; } });
+var SystemInfo_1 = require("./lib/SystemInfo");
+Object.defineProperty(exports, "SystemInfo", { enumerable: true, get: function () { return SystemInfo_1.SystemInfo; } });
+var Replace_1 = require("./lib/Replace");
+Object.defineProperty(exports, "Replace", { enumerable: true, get: function () { return Replace_1.Replace; } });
+require("./stubbyconfig");
 exports.default = {
-    Random: getRandom_1.getRandom,
-    SmallNumber: toSmallNumber_1.toSmallNumber,
-    SystemInfo: getSystemStats_1.getSystemStats,
-    Replace: tagReplace_1.tagReplace,
+    Random: Random_1.Random,
+    SmallNumber: SmallNumber_1.SmallNumber,
+    SystemInfo: SystemInfo_1.SystemInfo,
+    Replace: Replace_1.Replace,
 };

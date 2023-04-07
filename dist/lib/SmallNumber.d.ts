@@ -7,4 +7,4 @@
  *
  * @throws {TypeError} If any of the input parameters is not a positive integer.
  */
-export declare function toSmallNumber(count: number, digits: number): string;
+export declare function SmallNumber(count: number, digits: number): string;

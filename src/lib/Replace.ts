@@ -4,7 +4,7 @@
  * @param replacements - An object containing the tags and their respective values.
  * @returns The modified string with all tag occurrences replaced by their corresponding values.
  */
-export function tagReplace(str: string, replacements: {[key: string]: string}): string {
+export function Replace(str: string, replacements: {[key: string]: string}): string {
   // Iterate over each tag in the replacements object and replace it with its corresponding value in the string
   Object.keys(replacements).forEach((tag) => {
     str = str.replace(new RegExp(tag, 'g'), replacements[tag]);

@@ -8,7 +8,7 @@
  * @throws {TypeError} If the input parameter is not an array or a number.
  * @throws {Error} If the input array is empty.
  */
-export function getRandom(input: any, max?: number): any {
+export function Random(input: any, max?: number): any {
   if (typeof input === 'number') {
     if (typeof max === 'number') {
       return Math.floor(Math.random() * (max - input + 1)) + input;

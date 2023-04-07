@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getSystemStats = void 0;
+exports.SystemInfo = void 0;
 var os = require("os");
 /**
  * Returns an object with functions for accessing various system statistics.
@@ -13,7 +13,7 @@ var os = require("os");
  * - `cpuBrand`: A function that returns the brand of the CPU.
  * - `uptime`: A function that returns the system uptime in seconds.
  */
-function getSystemStats() {
+function SystemInfo() {
     var memory = os.totalmem();
     var cores = os.cpus().length;
     var uptime = os.uptime();
@@ -27,4 +27,4 @@ function getSystemStats() {
         uptime: function () { return uptime; },
     };
 }
-exports.getSystemStats = getSystemStats;
+exports.SystemInfo = SystemInfo;
